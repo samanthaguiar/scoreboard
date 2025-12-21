@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <h3>HOME</h3>
+                <div class="placar">
+                    <p id="homeId">0</p>
+                </div>
+                <button onClick="addOneHome()">+1</button>
+                <button onClick="addTwoHome()">+2</button>
+                <button onClick="addThreeHome()">+3</button>
+            </div>
+            
+            <div class="card">
+                <h3>GUEST</h3>
+                <div class="placar">
+                    <p id="guestId" >0</p>
+                </div>
+                <button onClick="addOneGuest()">+1</button>
+                <button onClick="addTwoGuest()">+2</button>
+                <button onClick="addThreeGuest()">+3</button>
+            </div>   
+        </div>
+        
+        <div id="box-btn">
+            <button id="btn-zerar" onclick="restart()">ZERAR PLACAR</button> 
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

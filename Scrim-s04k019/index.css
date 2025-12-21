@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Cursed Timer ULiL;
+  src: url(CursedTimerUlil-Aznm.ttf);
+}
+
+
+body {
+    margin: 0;
+    color: #EEEEEE;
+    background-color: #1B244A;
+}
+
+.container {
+    background-color: #1B244A;
+    display: flex;
+    justify-content: space-around;
+    width: 575;
+    height: 385;
+    padding: 40px 0;
+}
+
+.card {
+    text-align: center;
+}
+
+.placar {
+    background-color: #080001;
+    text-align: center;
+    width: 155;
+    height: 120;
+    top: 125px;
+    left: 82px;
+    opacity: 1;
+    border-radius: 5px;
+    margin: 0;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 40px;
+    line-height: 35.89px;
+    letter-spacing: 0%;
+    text-align: center;
+    
+    margin: 0;
+}
+
+p {
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 90px;
+    line-height: 126.67px;
+    letter-spacing: 0%;
+    
+    text-align: center;
+    color: #F94F6D;
+    margin: 16px;
+}
+
+button {
+    background-color: #1B244A;
+    border: 1px solid #9AABD8;
+    border-radius: 4px;
+    padding: 8px;
+    color: #9AABD8;
+    margin: 2px;
+    
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 27.81px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#box-btn {
+    width: 100%;
+}
+
+#btn-zerar {
+    display: block;
+    width: 200px;
+    margin: auto;
+}
